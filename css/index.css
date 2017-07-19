@@ -1,0 +1,36 @@
+/* CSS Document */
+body {margin:0; padding:0; font:12px “microsoft yahei”,"\5B8B\4F53",san-serif;background:blue;color:#fff/*min-width:888px;*/}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}   
+table,td,tr,th{font-size:12px;}
+li,ol,ul{list-style:none;}
+img{vertical-align:top;border:0;}
+button{outline:none}
+.lf{float:left;}
+.rt{float:right;}
+.clearfix:after{content:"";height:0;line-height:0;display:block;visibility:hidden;clear:both}
+.clearfix{*zoom:1;}
+
+
+
+
+
+div{float:left;}
+.left{width: 200px;height: 612px;padding:0 4px 0 14px;background-color: #151c24}
+.right{/*width: 648px*/width:60%;height: 600px;overflow:auto;padding-top:12px;background-color: rgba(42,197,202,0.7);}
+
+.myself{padding:16px 0;}
+.left ul li{position:relative;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.left .always li{height: 36px;}
+.left ul li:hover{background-color: #2f3030;}
+.left ul li img{vertical-align:middle;}
+.left .always img{margin-top:2px;}
+.left ul li span{margin-left:8px;}
+.left p{color:#666666;line-height:20px;}
+.always{margin-bottom:136px;}
+.always .more{position:absolute;left:180px;top:9px;}
+.right dl{float:left;width: 312px;height: 250px;margin-left:12px;margin-bottom:12px;}
+.right dt{line-height: 42px}
+.right dd{float:left;margin:0 4px 4px 0;}
+
+
+
